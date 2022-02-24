@@ -1,0 +1,1695 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* الناف بار */
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: rgba(175, 226, 241, 0.342);
+}
+
+/* دف صوره اللوجو */
+.logo {
+    display: flex;
+    height: 70px;
+    width: 130px;
+}
+/* صوره اللوجو داخل الماف */
+.logo img{
+    margin-left: 10px;
+    margin-top: 28px;
+    height: 70px;
+    width: 130px;
+}
+
+/* لينكات الناف بار */
+.divlink {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+     margin-top: 50px;
+     font-weight: bold;
+}
+nav a:hover {
+    color: rgb(128, 0, 128);
+}
+/* login ناف بار بوتون */
+.login {
+    position: absolute;
+    text-align: center;
+    background-image: url(../img/login_button_bg.png);
+    background-size: cover;
+    width: 105px;
+    height: 33px;
+    top: 35px;
+    cursor: pointer;
+    border: white;
+    border-radius: 15px;
+    top: 37px;
+    right: 110px;
+    font-weight: bold;
+}
+/* الهيدر وما بداخله */
+header{
+    background-size: cover;
+    position: relative;
+    display: flex;
+    background-image: url(../img/blue_bg.png);
+    height: 717px;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+/* العنوان والبرجراف داخل الهيدر */
+.text {
+    top: 153px;
+    font-size: 21px;
+    position: relative;
+    left: -108px;
+}
+/* الصور بداخل الهيدر */
+.right-header{
+    position: relative;
+    right: 55px;
+    top: 146px;
+}
+
+/* هافر */
+.right-header:hover {
+    transform: scale(1.2);
+}
+
+/* كلمه فى وسط البرجراف  */
+.spanDeliver {
+    color: rgba(128, 0, 128, 0.753);
+}
+
+/* الصوره الاولى الرئيسيه */
+.img1 {
+       /* display: flex; */
+    height: 649px;
+    width: 613px;
+    position: absolute;
+    top: -24%;
+    margin-right: -256px;
+    right: -36%;
+    filter: brightness(120%);
+}
+
+/* صورة رجل التوصيل  */
+.img2 {
+    position: absolute;
+    height: 450px;
+    width: 260px;
+    margin-right: -330px;
+    right: 281px;
+    top: -138px;
+    filter: brightness(130%);
+}
+
+/* صورة السحابه  */
+.img3 {
+    position: absolute;
+    width: 547px;
+    top: 211px;
+    right: -251px;
+}
+
+/* صوره waves */
+.waves {
+    position: absolute;
+    height: 111px;
+    width: 1266px;
+    top: 797px;
+    right: 31px;
+    transform: rotate(358deg);
+    filter: brightness(1%);
+}
+/* Delivere وما بداخله */
+.Delivere{
+    display: flex;
+    position: relative;
+    height: 800px;
+}
+/* صوره الموجه بداخل Delivere */
+.imgsecond1 {
+    height: 507px;
+    position: absolute;
+    width: 70%;
+    left: 312px;
+}
+.imgsecond {
+    position: absolute;
+    width: 100%;
+    top: 62px;
+    right: 30px;
+}
+/* الدف الاول داخلDelivere */
+.div1{
+    top: 139px;
+    position: relative;
+    left: 232PX;
+}
+/* الصوره الاولى بداخل Delivere */
+.imgGroup1 {
+    position: absolute;
+    height: 160px;
+    width: 191px;
+}
+/* الصوره الثانيه بداخل الدف الاول Delivere */
+.Group {
+    height:160px;
+    width: 156px;
+    bottom: 125px;
+    left: 135px;
+    filter: brightness(90%);
+}
+
+/* العنوان والبرجراف داخل الدف الاول Delivere */
+.h1pGroup1 {
+    position: absolute;
+    top: 170px;
+    font-size: 16px;
+    left: -75px;
+    text-align: center;
+}
+/* هافر  */
+.h1pGroup1:hover {
+    background-color: rgba(128, 0, 128, 0.753);
+}
+
+/* الدف الثانى بداخل Delivere */
+.div2{
+    top: 268px;
+    position: relative;
+    height: 300PX;
+    width: 460PX;
+    left: 454PX;
+}
+/*  دف الصوره الثانيه داخل الدف الثانى Delivere */
+.Group2 {
+    /* position: absolute; */
+    height:145px;
+    width: 197px;
+    left: 97px;
+    filter: brightness(95%);
+}
+/* الصوره الثانيه داخل الدف الثانى Delivere */
+.imgGroup2 {
+    position: absolute;
+    height: 160px;
+    width: 210px;
+}
+/* العنوان والبرجراف داخل الدف الثانى Delivere*/
+.h1pGroup2 {
+    position: absolute;
+    top: 158px;
+    font-size: 16px;
+    left: -97px;
+    text-align: center;
+}
+/* هافر */
+.h1pGroup2:hover {
+    background-color: rgba(128, 0, 128, 0.753);
+}
+
+/* الدف الثالث بداخل Delivere */
+.div3 {
+    top: 548px;
+    position: absolute;
+    left: 929PX;
+}
+/* دف الصوره الثالثه داخل الدف الثالث Delivere */
+.Group3 {
+    /* position: absolute; */
+    height:127px;
+    width: 168px;
+    bottom: 145px;
+    left: 123px;
+    filter: brightness(45%);
+}
+/* الصورة الثالثه داخل الدف الثالث Delivere */
+.imgGroup3 {
+    position: absolute;
+    height: 186px;
+    width: 287px;
+}
+/* العنوان والبرجراف داخل الدف الثالث Delivere */
+.h1pGroup3 {
+    position: absolute;
+    top: 187px;
+    font-size: 16px;
+    text-align: center;
+    left: -44px;
+}
+/* هافر */
+.h1pGroup3:hover {
+    background-color: rgba(128, 0, 128, 0.753);
+}
+
+/* الدف الرابع داخل Delivere */
+.div4{
+    top: 543px;
+    position: absolute;        
+    height: 350PX;
+    width: 430PX;
+    left: 95px;
+}
+/* دف الصوره الرابعه داخل الدف الرابع Delivere */
+.Group4 {
+    /* position: absolute; */
+    height:280px;
+    width: 300px;
+    top: 8px;
+    left: 24px;
+    filter: brightness(95%);
+}
+/* الصوره الرابعه داخل الدف الرابع Delivere*/
+.imgGroup4 {
+    position: absolute;
+    height: 338px;
+}
+/* هافر */
+.imgGroup4:hover {
+    transform: scale(.9);
+    opacity: 0.7;
+}
+
+
+/* العنوان والبرجراف داخل الدف الرباع Delivere*/
+.h3h1Group4 {
+    position: absolute;
+    left: 90px;
+    bottom: 120px;
+    color: white;
+    font-size: 24px;
+}
+
+/*  Supportدف وما بداخله */
+.Support {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+/* الدف الاول داخل Support  */
+.div5 {
+    position: absolute;
+    top: 215px;
+    left: 167px;
+}
+/* الصوه الاولى داخل الدف الاول Support */
+.imgSupport1 {
+    position: absolute;
+    height: 200px;
+    width: 182px;
+}
+/* هافر */
+.imgSupport1:hover {
+    transform: scale(1.2);
+}
+
+
+/* الدف الثانى داخل Support  */
+.div6 {
+    position: absolute;
+    top: 67px;
+    text-align: center;
+    left: 33%;
+}
+/* الصوه الثانيه داخل الدف الثانى Support */
+.imgSupport2 {
+    position: relative;
+    height: 360px;
+    width: 416px;
+    top: 44px;
+}
+/* العنوان والبرجراف داخل Support  */
+.h2pSupport {
+    position: absolute;
+    font-size: 17px;
+    left: 53px;
+}
+
+/* هافر */
+.imgSupport2:hover {
+    transform: scale(0.7);
+}
+
+.h2pSupport:hover {
+    background-color: rgba(128, 0, 128, 0.753);
+}
+
+/* الدف الثالث بداخل Support */
+.div7 {
+    position: absolute;
+    top: 229px;
+    right: 381px;
+}
+/* الصوه الثالثه داخل الدف الثالث Support */
+.imgSupport3 {
+    position: absolute;
+    height: 210px;
+    width: 226px;
+}
+
+.imgSupport3:hover {
+    transform: scale(1.2);
+}
+
+/* دف علامه القوس تحت صور Support */
+.divi {
+    position: absolute;
+    top: 118px;
+    left: -9px;
+}
+.i {
+    position: absolute;
+    top: 270px;
+    left: 430px;
+}
+.ii {
+    position: absolute;
+    top: 270px;
+    left: 880px;
+}
+
+/* الفوتر وجميع ما داخله */
+footer {
+    display: flex;
+    filter: brightness(115%);
+    position: relative;
+    height: 502px;
+    width: 100%;
+    background-image: url(../img/Group\ 1131.png);
+    background-size: cover;
+    top: 563px;
+}
+
+.footerdiv1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.buttonn1 {
+    position: absolute;
+
+}
+
+.footerdiv22 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.buttonn2 {
+    position: absolute;
+}
+/* البوتون الأول فى الفوتر */
+.footerbut {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    border: white;
+    border-radius: 15px;
+    font-size: 8px;
+    left: 87px;
+    top: -181px;
+    cursor: pointer;
+}
+/* ا span ل سبان الأول بوتون الفوتر  */
+.App1 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+/* span ال سبان الثانى بوتون الفوتر */
+.App2 {
+    position: absolute;
+    right: 25px;
+    bottom: 13px;
+    font-size: 11px;
+    font-weight: bold;
+}
+/* ايكونة أبل استور داخل البوتون الاول فى الفوتر */
+.footerimg {
+    position: absolute;
+    left: 100px;
+    height: 30px;
+    width: 25px;
+    top: -175px;
+}
+/* البوتون الثانى فى الفوتر */
+.footerbut2 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    border: white;
+    border-radius: 15px;
+    font-size: 8px;
+    left: 227px;
+    cursor: pointer;
+    top: -180px;
+}
+
+/* ا span ل سبان الاول البوتون الثانى الفوتر  */
+.Ap1 {
+    position: absolute;
+    left: 47px;
+    top: 15px;
+}
+
+/* span ال سبان الثانى بوتون الثانى الفوتر */
+.Ap2 {
+    position: absolute;
+    right: 21px;
+    bottom: 13px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* ايكونة بلاى استور داخل البوتون الثانى فى الفوتر */
+.footerimg2 {
+    position: absolute;
+    left: 241px;
+    height: 28px;
+    width: 26px;
+    top: -168px;
+}
+
+/* دف ايكونات التواصل داخل الفوتر */
+.icon {
+    display: flex;
+    position: absolute;
+    left: 116px;
+    top: -99px;
+}
+
+/* الايكونه الاولى داخل الفوتر */
+.awesome {
+    position: absolute;
+    left: -24px;
+    cursor: pointer;
+}
+/* الايكونه الثانيه داخل الفوتر */
+.whatsapp {
+    position: absolute;
+    cursor: pointer;
+    left: 22px;
+    height: 29px;
+}
+/* الايكونه الثالثه داخل الفوتر */
+.facebook {
+    position: absolute;
+    left: 68px;
+    cursor: pointer;
+}
+
+/* دف اللينكات داخل الفوتر */
+.link2 {
+    position: absolute;
+    width: 400px;
+    top: -36px;
+    left: 91px;
+    font-weight: bold;
+}
+/* اللينك الاول داخل الفوتر */
+.Home2 {
+    color: white;
+    
+}
+
+/* اللينك الثانى داخل الفوتر */
+.Services2 {
+    position: absolute;
+    color: white;
+    left: 108px;
+}
+
+/* اللينك الثالث داخل الفوتر */
+.About2 {
+    position: absolute;
+    color: white;
+    right: 107px;
+}
+/* اللينك الرابع داخل الفوتر */
+.Help2 {
+    position: absolute;
+    color: white;
+    right: -48px;
+}
+
+/* هافر اللينكات داخل الفوتر */
+.Home2:hover {
+    color: black;
+}
+.Services2:hover {
+    color: black;
+}
+.About2:hover {
+    color: black;
+}
+.Help2:hover {
+    color: black;
+}
+
+/* الدف الثانى داخل الفوتر */
+.footerdiv2 {
+    position: absolute;
+    left: 600px;
+    top: 102px;
+}
+/* الصوره الاخيره داخل الفوتر */
+.imgendfooter {
+    position: absolute;
+    height: 400px;
+    width: 569px;
+    filter: brightness(95%);
+}
+
+/* تنسيق جميع اللينكات */
+a {
+    text-decoration: none;
+}
+
+
+/* كود المديا كويرى */
+@media  only screen and ( max-width: 600px ){
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: rgba(180, 4, 233, 0.795);
+    }
+    .nav {
+        display: block;
+        width: 100%;
+        background-color: rgb(0 0 0 / 60%);
+    }
+    .logo {
+        height: 117px;
+        width: 206px;
+        margin-left: 230px;
+    }
+    .logo img{
+        height: 112px;
+        width: 201px;
+        margin-left: -50px;
+        margin-top: auto;
+    }
+    .divlink {
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+
+    header{
+        display: block;
+    }
+    .text {
+        text-align: center;
+        left: 85px;
+        bottom: 43px;
+        position: absolute;
+    }
+    .img1 {
+    height: 603px;
+    width: 563px;
+    position: absolute;
+    margin-right: -256px;
+    right: 32%;
+    filter: brightness(120%);
+    }
+    .img2 {
+    position: absolute;
+    height: 450px;
+    width: 260px;
+    margin-right: -330px;
+    right: 457px;
+    top: 24px;
+    filter: brightness(130%);
+    }
+    .img3 {
+    position: absolute;
+    height: 37s5px;
+    width: 399px;
+    top: 374px;
+    right: 21px;
+    }
+
+    .waves {
+    display: none;
+    position: absolute;
+    height: 111px;
+    width: 650px;
+    top: 840px;
+    right: 25px;
+    filter: brightness(120%);
+    transform: rotate(358deg);
+    }
+
+    .Delivere {
+        display: block;
+        position: relative;
+        height: 1078px;
+        background-color: #4d90fec7;
+        width: 100%;
+    }
+    .imgsecond {
+        display: none;
+    }
+    .div1 {
+        top: 43px;
+        position: relative;
+        height: 300PX;
+        width: 460PX;
+        left: 197PX;
+    }
+    .div2 {
+        top: 115px;
+        position: relative;
+        left: 193PX;
+    }
+    .div3 {
+        top: 174px;
+        position: relative;
+        left: 150PX;
+    }
+    .div4 {
+        top: 1126px;
+        position: absolute;
+        height: 373PX;
+        width: 600PX;
+        left: 0;
+        background-color: #ffffff52;
+    }
+
+    .imgGroup4 {
+        position: absolute;
+        height: 339px;
+        top: 2px;
+        left: 4px;
+    }
+    .Group4 {
+        height: 280px;
+        position: relative;
+        width: 300px;
+        top: 16px;
+        left: 89px;
+        filter: brightness(95%);
+    }
+    .h3h1Group4 {
+        left: 188px;
+        /* bottom: 130px; */
+        color: white;
+        font-size: 24px;
+    }
+
+    .Support {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .div5 {
+        position: absolute;
+        top: 478px;
+        left: 203px;
+    }
+    .div6 {
+        position: absolute;
+        top: 720px;
+        text-align: center;
+        left: 10%;
+    }
+    .h2pSupport {
+        position: absolute;
+        font-size: 17px;
+        left: 99px;
+    }
+    .div7 {
+        position: absolute;
+        top: 1302px;
+       right: 397px;
+    }
+
+    footer {
+        display: block;
+        filter: brightness(115%);
+        position: relative;
+        height: 388px;
+        width: 100%;
+        background-image: url(../img/Group\ 1131.png);
+        background-size: cover;
+        top: 1590px;
+    }
+    .buttonn1 {
+        position: absolute;
+        bottom: 14px;
+        left: -61px;
+        
+    }
+
+    .buttonn2 {
+        position: absolute;
+        top: -14px;
+        left: -65px;
+    }
+    .imgendfooter {
+        height: 322px;
+        width: 343px;
+        filter: brightness(95%);
+        left: -298px;
+        top: -36px;
+    }
+    .icon {
+        display: flex;
+        position: absolute;
+        left: 56px;
+        top: -104px;
+    }
+    .link2 {
+        position: absolute;
+        width: 398px;
+        top: -38px;
+        left: 69px;
+    }
+    .Home2 {
+        color: black;
+        position: absolute;
+        left: -59px;
+    }
+    .Services2 {
+        position: absolute;
+        color: black;
+        left: 10px;
+    }
+    .About2 {
+        position: absolute;
+        color: black;
+        right: 240px;
+    }
+    .Help2 {
+        position: absolute;
+        color: #1c1c1c;
+        left: 180px;
+    }
+
+    .divi {
+        display: none;
+    }
+}
+
+
+@media  only screen and ( min-width: 601px ) and (max-width: 768px){
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #1e90ff30;
+    }
+    .nav {
+        display: block;
+        width: 100%;
+        background-color: rgba(86, 69, 236, 0.6);
+    }
+    .logo {
+        height: 117px;
+        width: 206px;
+        margin-left: 230px;
+    }
+    .logo img{
+        height: 128px;
+        width: 237px;
+        margin-top: 40px;
+        margin-left: -267px;
+    }
+
+    .login{
+        display: inline-block;
+        margin-top: 35px;
+        margin-right: -68px;
+        height: 35px;
+        width: 100px;
+        font-size: 17px;    
+    }
+    .divlink {
+        position: relative;
+        display: flex;
+        margin-left: 177px;
+        bottom: 25px;
+        font-size: 21px;
+    }
+    header{
+        display: block;
+    }
+    .text {
+        text-align: center;
+        left: 163px;
+        bottom: 43px;
+        position: absolute;
+        /* transform: rotate(358deg); */
+    }
+    .img1 {
+        height: 603px;
+        width: 563px;
+        position: absolute;
+        margin-right: -256px;
+        right: 32%;
+        filter: brightness(120%);
+    }
+    .img2 {
+        position: absolute;
+        height: 450px;
+        width: 260px;
+        right: 505px;
+        top: 24px;
+        filter: brightness(130%);
+    }
+    .img3 {
+        position: absolute;
+        height: 224px;
+        width: 416px;
+        top: 370px;
+        right: 84px;
+    }
+    .right-header {
+        position: relative;
+        right: 83px;
+        top: 213px;
+    }
+    .Delivere {
+        display: block;
+        position: relative;
+        height: 1078px;
+    }
+    .imgsecond {
+        display: flex;
+        position: relative;
+        right: 173px;
+        top: 54px;
+    }
+    .ii {
+        position: absolute;
+        top: 199px;
+        left: 739px;
+    }
+    .i {
+        position: absolute;
+        top: 199px;
+        left: 415px;
+    }
+
+    .div1 {
+        top: 120px;
+        position: relative;
+        left: 88PX;
+    }
+
+    .imgGroup1 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup1 {
+        position: absolute;
+        top: 122px;
+        font-size: 14px;
+        left: -87px;
+        text-align: center;
+    }
+    .div2 {
+        top: 107px;
+        position: relative;
+        height: 300PX;
+        width: 460PX;
+        left: 339PX;
+    }
+    .imgGroup2 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup2 {
+        position: absolute;
+        top: 120px;
+        font-size: 14px;
+        left: -122px;
+        text-align: center;
+    }
+    .div3 {
+        top: 56px;
+        position: relative;
+        left: 518PX;
+    }
+    .imgGroup3 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup3 {
+        position: absolute;
+
+        top: 117px;
+        font-size: 14px;
+        left: -96px;
+    
+        text-align: center;
+    }
+    .div4 {
+        top: 777px;
+        position: absolute;
+        height: 385PX;
+        width: 600PX;
+        left: 46px;
+    }
+    .Group4 {
+        height: 280px;
+        position: relative;
+        width: 300px;
+        top: 16px;
+        left: 89px;
+        filter: brightness(95%);
+    }
+
+    .imgGroup4 {
+        position: absolute;
+        height: 283px;
+        width: 480px;
+    }
+    .h3h1Group4 {
+        left: 221px;
+        font-size: 22px;
+        top: 81px;
+    }
+
+
+    .Support {
+        display: flex;
+        position: relative;
+        width: 100%;
+        top: 120px;
+    }
+    .div5 {
+        position: absolute;
+        top: 105px;
+        left: 29px;
+    }
+    .imgSupport1 {
+        position: absolute;
+        height: 163px;
+        width: 164px;
+    }
+    .div6 {
+        position: absolute;
+        top: -107px;
+        text-align: center;
+        left: 25%;
+    }
+    .imgSupport2 {
+        position: relative;
+        height: 303px;
+        width: 344px;
+        top: 31px;
+    }
+    .h2pSupport {
+        position: absolute;
+        font-size: 15px;
+        left: 75px;
+    }
+    .div7 {
+        position: absolute;
+        top: 122px;
+        right: 198px;
+     }
+    .imgSupport3 {
+        position: absolute;
+        height: 167px;
+        width: 188px;
+    }
+
+    .waves {
+        display: none;
+    }
+    footer {
+        display: block;
+        filter: brightness(115%);
+        position: absolute;
+        height: 284px;
+        width: 100%;
+        right: 0;
+        background-image: url(../img/Group\ 1131.png);
+        background-size: cover;
+        top: 2567px;
+    }
+    .buttonn1 {
+        position: absolute;
+        top: 78px;
+        left: -27px;
+    }
+
+    .buttonn2 {
+        position: absolute;
+        top: 78px;
+        left: -23px;
+    }
+    .imgendfooter {
+        position: absolute;
+        height: 240px;
+        width: 346px;
+        filter: brightness(95%);
+        left: -261px;
+        top: -58px;
+    }
+    .icon {
+        display: flex;
+        position: absolute;
+        left: 94px;
+        top: -29px;
+    }
+    .link2 {
+        position: absolute;
+        width: 400px;
+        font-weight: bold;
+        top: 22px;
+        left: 94px;
+    }
+    .Home2 {
+        color: cornsilk;
+        position: absolute;
+        left: -66px;
+    }
+    .Services2 {
+        position: absolute;
+        color: cornsilk;
+        left: -6px;
+    }
+    .About2 {
+        position: absolute;
+        color: cornsilk;
+        right: 266px;
+    }
+    .Help2 {
+        position: absolute;
+        color: cornsilk;
+        left: 152px;
+    }
+
+    .divi {
+        display: flex;
+        position: absolute;
+        top: -22px;
+        left: -199px;
+    }
+
+    .footerdiv1 {
+        position: absolute;
+        top: 245px;
+    }
+}
+
+@media  only screen and ( min-width: 769px ) and (max-width: 992px){
+    body {
+        padding: 0;
+        margin: 0;
+        /* background-color: #1e90ff30; */
+    }
+    .nav {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        height: 117px;
+        width: 206px;
+        margin-left: 263px;
+    
+    }
+    .logo img{
+        height: 128px;
+        width: 237px;
+        margin-top: 40px;
+        margin-left: -267px;
+    }
+
+    .login{
+        display: inline-block;
+        margin-top: 38px;
+        margin-right: -68px;
+        height: 35px;
+        width: 100px;
+        font-size: 17px;   
+    }
+    .divlink {
+        position: relative;
+        display: flex;
+        margin-left: 299px;
+        bottom: 88px;
+        font-size: 21px;
+        justify-content: space-around;
+    }
+    header{
+        display: block;
+    }
+    .text {
+        text-align: center;
+        top: 336px;
+        position: relative;
+        left: 28px;
+        position: absolute;
+    }
+    .img1 {
+        height: 603px;
+        width: 563px;
+        position: absolute;
+        margin-right: -256px;
+        right: 32%;
+        filter: brightness(120%);
+    }
+    .img2 {
+        position: absolute;
+        height: 450px;
+        width: 260px;
+        /* margin-right: -330px; */
+        right: 567px;
+        top: 24px;
+        filter: brightness(130%);
+    }
+    .img3 {
+        position: absolute;
+        height: 37s5px;
+        width: 412px;
+        top: 374px;
+        right: 127px;
+    }
+    .right-header {
+        position: relative;
+        right: -105px;
+        top: -18px;
+    }
+    .Delivere {
+        display: block;
+        position: relative;
+        height: 1078px;
+    }
+    .imgsecond {
+        display: flex;
+        position: relative;
+        right: 119px;
+        top: 54px;
+    }
+    .div1 {
+        top: 129px;
+        position: relative;
+        /* height: 300PX; */
+        /* width: 460PX; */
+        left: 111PX;
+    }
+
+    .imgGroup1 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup1 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -103px;
+        text-align: center;
+    }
+    .div2 {
+        top: 124px;
+        position: relative;
+        /* height: 300PX; */
+        /* width: 460PX; */
+        left: 452PX;
+    }
+    .imgGroup2 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup2 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -141px;
+        text-align: center;
+    }
+    .div3 {
+        top: 79px;
+        position: relative;
+        left: 704px;
+    }
+    .imgGroup3 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup3 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -133px;
+        text-align: center;
+    }
+    .div4 {
+        top: 847px;
+        position: absolute;
+        /* height: 385PX; */
+        /* width: 600PX; */
+        left: 228px;
+    }
+
+    .imgGroup4 {
+        position: absolute;
+        height: 339px;
+        width: 522px;
+    }
+    
+    
+    .h3h1Group4 {
+        left: 125px;
+        font-size: 28px;
+        top: 46px;
+    }
+
+
+    .Support {
+        display: flex;
+        position: relative;
+        width: 100%;
+        top: 158px;
+    }
+    .div5 {
+        position: absolute;
+        top: 105px;
+        left: 52px;
+    }
+    .imgSupport1 {
+        position: absolute;
+        height: 145px;
+        width: 160px;
+    }
+    .div6 {
+        position: absolute;
+        top: -36px;
+        text-align: center;
+        left: 32%;
+    }
+    .imgSupport2 {
+        position: relative;
+        height: 242px;
+        width: 326px;
+        top: 31px;
+    }
+    .h2pSupport {
+        position: absolute;
+        font-size: 15px;
+        left: 75px;
+    }
+    .div7 {
+        position: absolute;
+        top: 122px;
+        right: 221px;
+     }
+     .imgSupport3 {
+        position: absolute;
+        height: 145px;
+        width: 173px;
+    }
+
+    .waves {
+        display: none;
+    }
+    footer {
+        display: block;
+        filter: brightness(115%);
+        position: absolute;
+        height: 419px;
+        width: 114%;
+        right: -114px;
+        background-image: url(../img/Group\ 1131.png);
+        background-size: cover;
+        top: 2567px;
+    }
+    .buttonn1 {
+        position: absolute;
+        top: 118px;
+        left: -19px;
+    }
+
+    .buttonn2 {
+        position: absolute;
+        top: 118px;
+        left: -20px;
+    }
+    .imgendfooter {
+
+        position: absolute;
+        height: 322px;
+        width: 533px;
+        filter: brightness(95%);
+        left: -114px;
+        top: -5px;    
+    }
+    .icon {
+        display: flex;
+        position: absolute;
+        left: 94px;
+        top: 17px;
+    }
+    .link2 {
+        position: absolute;
+        width: 400px;
+        font-weight: bold;
+        top: 70px;
+        left: 136px;
+    }
+    .Home2 {
+        color: cornsilk;
+        position: absolute;
+        left: -66px;
+    }
+    .Services2 {
+        position: absolute;
+        color: cornsilk;
+        left: -6px;
+    }
+    .About2 {
+        position: absolute;
+        color: cornsilk;
+        right: 266px;
+    }
+    .Help2 {
+        position: absolute;
+        color: cornsilk;
+        left: 152px;
+    }
+
+    .divi {
+        display: none;
+    }
+
+    .footerdiv1 {
+        position: absolute;
+        top: 314px;
+    }
+}
+
+@media  only screen and ( min-width: 993px ) and (max-width: 1200px){
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #1e90ff30;
+    }
+    .nav {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        height: 117px;
+        width: 206px;
+        margin-left: 263px;
+    
+    }
+    .logo img{
+        height: 128px;
+        width: 237px;
+        margin-top: 40px;
+        margin-left: -267px;
+    }
+
+    .login{
+        display: inline-block;
+        margin-top: 38px;
+        margin-right: 20px;
+        height: 35px;
+        width: 100px;
+        font-size: 17px;   
+    }
+    .divlink {
+        position: relative;
+        display: flex;
+        margin-left: 370px;
+        bottom: 88px;
+        font-size: 21px;
+        justify-content: space-around;
+    }
+    header{
+        display: block;
+    }
+    .text {
+        text-align: center;
+        top: 294px;
+        position: relative;
+        left: 41px;
+        position: absolute;
+    }
+    .img1 {
+        height: 603px;
+        width: 563px;
+        position: absolute;
+        margin-right: -256px;
+        right: 32%;
+        filter: brightness(120%);
+    }
+    .img2 {
+        position: absolute;
+        height: 450px;
+        width: 260px;
+        margin-right: -330px;
+        right: 567px;
+        top: 24px;
+        filter: brightness(130%);
+    }
+    .img3 {
+        position: absolute;
+        height: 37s5px;
+        width: 448px;
+        top: 369px;
+        right: 138px;
+    }
+    .right-header {
+        position: relative;
+        right: -105px;
+        top: -18px;
+    }
+    .Delivere {
+        display: block;
+        position: relative;
+        height: 1078px;
+    }
+    .imgsecond {
+        display: flex;
+        position: relative;
+        right: 119px;
+        top: 54px;
+    }
+    .div1 {
+        top: 129px;
+        position: relative;
+        /* height: 300PX; */
+        /* width: 460PX; */
+        left: 111PX;
+    }
+
+    .imgGroup1 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup1 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -103px;
+        text-align: center;
+    }
+    .div2 {
+        top: 124px;
+        position: relative;
+        /* height: 300PX; */
+        /* width: 460PX; */
+        left: 510PX;
+    }
+    .imgGroup2 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup2 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -141px;
+        text-align: center;
+    }
+    .div3 {
+        top: 86px;
+        position: relative;
+        left: 826px;
+    }
+    .imgGroup3 {
+        position: absolute;
+        height: 119px;
+        width: 160px;
+    }
+    .h1pGroup3 {
+        position: absolute;
+        top: 122px;
+        font-size: 17px;
+        left: -133px;
+        text-align: center;
+    }
+    .div4 {
+        top: 834px;
+        position: absolute;
+        /* height: 385PX; */
+        width: 600PX;
+        left: 139px;
+    }
+
+    .imgGroup4 {
+        position: absolute;
+        height: 339px;
+        width: 522px;
+    }
+    
+    
+    .h3h1Group4 {
+        left: 125px;
+        font-size: 28px;
+        top: 46px;
+    }
+
+
+    .Support {
+        display: flex;
+        position: relative;
+        width: 100%;
+        top: 158px;
+    }
+    .div5 {
+        position: absolute;
+        top: 105px;
+        left: 52px;
+    }
+    .imgSupport1 {
+        position: absolute;
+        height: 145px;
+        width: 160px;
+    }
+    .div6 {
+        position: absolute;
+        top: -36px;
+        text-align: center;
+        left: 32%;
+    }
+    .imgSupport2 {
+        position: relative;
+        height: 242px;
+        width: 326px;
+        top: 31px;
+    }
+    .h2pSupport {
+        position: absolute;
+        font-size: 15px;
+        left: 64px;
+    }
+    .div7 {
+        position: absolute;
+        top: 122px;
+        right: 299px;
+     }
+     .imgSupport3 {
+        position: absolute;
+        height: 145px;
+        width: 173px;
+    }
+    .waves {
+        position: absolute;
+        height: 120px;
+        width: 1065px;
+        top: 924px;
+        right: 106px;
+        filter: brightness(1%);
+        transform: rotate(2deg);
+    }
+    footer {
+        display: block;
+        filter: brightness(115%);
+        position: absolute;
+        height: 420px;
+        width: 114%;
+        right: -114px;
+        background-image: url(../img/Group\ 1131.png);
+        background-size: cover;
+        top: 2567px;
+    }
+    .buttonn1 {
+        position: absolute;
+        top: 175px;
+        left: 161px;
+    }
+    .buttonn2 {
+        position: absolute;
+        top: 175px;
+        left: 188px;
+    }
+    .imgendfooter {
+
+        position: absolute;
+        height: 370px;
+        width: 535px;
+        filter: brightness(95%);
+        left: -155px;
+        top: 17px;
+        left: -37px;
+    }
+    .icon {
+
+        display: flex;
+        position: absolute;
+        left: 91px;
+        top: -51px;
+    
+    }
+    .link2 {
+        position: absolute;
+        width: 400px;
+        font-weight: bold;
+        top: 70px;
+        left: 136px;
+    }
+    .Home2 {
+        color: cornsilk;
+        position: absolute;
+        left: -66px;
+    }
+    .Services2 {
+        position: absolute;
+        color: cornsilk;
+        left: -6px;
+    }
+    .About2 {
+        position: absolute;
+        color: cornsilk;
+        right: 266px;
+    }
+    .Help2 {
+        position: absolute;
+        color: cornsilk;
+        left: 152px;
+    }
+
+    .divi {
+        display: none;
+    }
+
+    .footerdiv1 {
+        position: absolute;
+        top: 314px;
+    }
+}
